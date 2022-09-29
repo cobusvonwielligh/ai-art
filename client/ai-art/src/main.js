@@ -8,7 +8,7 @@ const cache = new InMemoryCache()
 
 const apolloClient = new ApolloClient({
   cache,
-  uri: 'http://localhost:4042/graphql',
+  uri: 'https://spacexserver2nd.dantelentsoe.repl.co/',
 })
 
 import { createApolloProvider } from '@vue/apollo-option'
